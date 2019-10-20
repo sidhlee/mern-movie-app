@@ -108,7 +108,7 @@ $npm start
   - Toggler for sidedrawer. Show only on mobile view.
   - Sidedrawer op top of backdrop. Set media queries for navigation items
   - Implement layout hoc component and compose toolbar, sidedrawer and main contents.
-4. Inside `App` component, nest `Route` components (react-router-dom) inside `Layout`compoent.  
+4. Inside the root `index.js`, Wrap`App` component with `BrowerRouter` from `react-router-dom`. In `App.js`, nest `Route` components (react-router-dom) inside `Layout`compoent.  
   Create each page (rendering component inside Routes) with minimal boilerplates inside `container` folder.
   
 5. Finish each page. Start from the main page and move into more specific, functional page.
